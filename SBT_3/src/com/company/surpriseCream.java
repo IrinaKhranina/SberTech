@@ -19,11 +19,14 @@ public class surpriseCream extends iceCream {
 //
 //    private ArrayList<String> toppingList = new ArrayList();
 
+   // 1. нет @override
+   // 2. Если конструктор полностью совпадает с базовым, то зачем его переопределять? Лишний код
     public surpriseCream() {
         super();
     }
 
 
+    // Расчет цены должен быть в базовом классе
     public int price() {
         int priceValue = 0;
         ArrayList toppingList = super.getToppingList();

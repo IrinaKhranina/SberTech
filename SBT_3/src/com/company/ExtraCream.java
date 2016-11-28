@@ -32,7 +32,8 @@ public class ExtraCream extends iceCream {
         System.out.println("Вы набрали на сумму: " + getPrice() + "\n Вкус: " + getTypeCream() + "\n Посуда: " + getCupCream() + "\n Напиток: " + getDrink());
     }
 
-
+    // цена у тебя считается как в базовом классе + за напиток
+    // У тебя получается дублирование кода
     public int price() {
         int priceValue = 0;
         if (super.getCupCream().equals("Рожок")) {

@@ -8,7 +8,7 @@ import java.security.PublicKey;
 public class ToppingSelected {
     public static String CreamSelected(int k) {
         if (k == 1) {
-            return "Сливочное";
+            return "Сливочное";   // Все строки тут надо было завести как константы
         } else if (k == 2) {
             return "Клубничное";
         } else {
